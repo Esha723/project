@@ -1,0 +1,117 @@
+body{
+    /* background-color: lightblue; */
+}
+
+.bsl {
+    color: chocolate;
+    font-size: 60px;
+    background-color: gray;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.esha{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.main{
+    /* background-color: lightgreen; */
+    background-image: url(/OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.main .head{
+    text-align: center;
+}
+button{
+    margin: 50px 40px 30px 20px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(195, 142, 73);
+    color: black;
+}
+
+
+/* box model */
+.box{
+    margin-top: 60px;
+    border: 8px solid black;
+    padding: 80px 30px;
+    width: 50%;
+    background-color: burlywood;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+}
+.box-2{
+    /* border: 8px solid rgb(197, 87, 87); */
+    border-top: 4px solid green;
+    padding: 80px 30px;
+    background-color: aquamarine;
+}
+.box-3{
+    border: 8px solid rgb(116, 191, 103);
+    padding: 80px 30px;
+    background: rgb(7,5,51);
+    background: linear-gradient(90deg, rgba(7,5,51,1) 0%, rgba(179,179,205,1) 31%, rgba(130,152,187,1) 60%, rgba(46,165,189,1) 100%);
+}
+.man{
+    border-radius: 50%;
+    float: right;
+    outline-style: solid;
+}
+
+.child-box{
+    background-color: aqua;
+    width: 800px;
+    height: 500px;
+    margin-left: 70px;
+}
+
+/* position */
+.box-pos{
+    margin-top: 50px;
+    border: 3px solid black;
+    padding: 80px;
+    position: relative;
+    }
+ 
+    .box-position{
+        margin-top: 20px;
+        background-color: blue;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+    }
+    .box-position:hover{
+        background-color: rgb(161, 161, 216);
+        width: 70px;
+        height: 70px;
+    }
+
+
+    /* anchor button */
+    .anchor-button{
+        text-decoration: none;
+        color: brown;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: bisque;
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .anchor-button:hover{
+        background-color: rgb(207, 141, 61);
+        color: rgb(32, 10, 10);
+        box-shadow: rgba(0, 0, 0, 0.38) 0px 5px 15px;
+    }
+
+    
